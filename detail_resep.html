@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Detail Resep</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .checked {
+            color: orange;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Coral</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="dashboard.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="live.html">Live</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">Logout</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Cari resep makanan" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="mt-5">Sup Tomyum</h1>
+      <p>by Mami Dede</p>
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card shadow" onclick="window.location.href='./detail_resep.php'" style="width: 25rem;">
+            <img src="./asset/tomyam.png" class="card-img-top rounded" alt="...">
+            <!-- <div class="card-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h5 class="card-title">Sup Tomyum</h5>
+                        <p class="card-text">by Mami Dede</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa fa-star checked"></span> 4.3
+                    </div>
+                </div>
+                
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3>Bahan:</h3>
+          <p>
+            5 ekor udang<br>
+            5 buah bakso ikan<br>
+            5 buah crab stick<br>
+            8 buah jamur kancing<br>
+            1 batang daun bawang<br>
+            8 buah cabai rawit<br>
+            400 ml air<br>
+            ½ buah perasan jeruk lemon<br>
+            Kaldu jamur, garam, dan gula secukupnya<br>
+          </p>
+          <h3>Bumbu Utuh:</h3>
+          <p>
+            1 batang serai, geprek<br>
+            1 ruas lengkuas, geprek<br>
+            1 ruas jahe, geprek<br>
+            4 lbr daun jeruk<br>
+            3 lbr daun salam<br>
+          </p>
+          <h3>Bahan Halus:</h3>
+          <p>
+            4 buah cabai keriting<br>
+            5 siung bawang merah<br>
+            3 siung bawang putih<br>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3>Cara Membuat:</h3>
+          <br>
+          1. Rebus air di dalam panci.<br><br>
+          2. Sembari menunggu air mendidih, tumis bumbu halus dengan sedikit minyak. Tambahkan bumbu utuh tumis hingga harum.<br><br>
+          3. Masukkan bumbu yang telah ditumis ke dalam air yang mendidih.<br><br>
+          4. Tambahkan udang, cabai rawit utuh, bakso ikan, dan jamur kancing.<br><br>
+          5. Tambahkan bumbu seperti garam, kaldu jamur dan gula.<br><br>
+          6. Masukkan perasan jeruk lemon. Masak hingga mendidih.<br><br>
+          7. Terakhir masukkan crab stick dan irisan daun bawang.<br><br>
+          8. Tes rasa, jika sudah pas angkat dan sajikan.<br><br>
+        </div>
+
+      <br><br><br>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
